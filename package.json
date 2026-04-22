@@ -1,0 +1,21 @@
+{
+  "name": "zhangteng-resume",
+  "version": "1.0.0",
+  "description": "张腾 - 动态简历网站",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0",
+    "gh-pages": "^6.1.1",
+    "sass": "^1.32.0",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "homepage": "https://zhangteng.github.io/resume"
+}
