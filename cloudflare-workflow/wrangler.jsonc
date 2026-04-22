@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dongtaijl-workflow",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-04-22",
+  "observability": { "enabled": true },
+  "workflows": [
+    {
+      "name": "dongtaijl-workflow",
+      "binding": "MY_WORKFLOW",
+      "class_name": "MyWorkflow"
+    }
+  ]
+}
