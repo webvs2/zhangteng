@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "cf:dev": "npm run build && cd cloudflare-workflow && npx wrangler dev",
+    "cf:deploy": "npm run build && cd cloudflare-workflow && npx wrangler deploy"
   },
   "dependencies": {
     "vue": "^2.6.14"
